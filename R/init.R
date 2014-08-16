@@ -5,7 +5,7 @@ initResourcePaths <- function() {
     shiny::addResourcePath(
       prefix = 'shinyGlobe',
       directoryPath = system.file('www', package='shinyGlobe'))
-    .global$loaded <- TRUE
+    .global$loaded <- FALSE
   }
   HTML("")
 }
