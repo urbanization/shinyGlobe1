@@ -26,7 +26,7 @@
         var data = JSON.parse(data);
         $(el).data('globedata', data);
         for (i=0;i<data.length;i++) {
-          globe.addData(data[1], {format: 'magnitude', name: data[0], animated: true});
+          globe.addData(data[1], {format: 'magnitude', name: data[0], animated: false});
         }
         globe.createPoints();
         globe.time = 0;
