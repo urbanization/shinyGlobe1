@@ -30,7 +30,7 @@
         }
         globe.createPoints();
         globe.time = 0;
-        #'globe.animate();
+       
         document.body.style.backgroundImage = 'none'; // remove loading
       }
     }
